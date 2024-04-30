@@ -1,0 +1,59 @@
+
+    *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.party{
+    width: 30%;
+    height: 95%;
+    background-color: rgb(220, 222, 224);
+    margin-left: 35%;
+    border: 2px solid rgb(44, 37, 37);
+    position: relative;
+    box-shadow: 10px 10px 10px gray;
+}
+.party img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.party p{
+    text-align: center;
+    color: rgb(65, 60, 56);
+    margin-top: 5%;
+}
+.party input{
+    margin-left:0%;
+    border: 2px solid rgb(44, 37, 37);
+    padding: 8px 10px;
+   margin-top: 20px;
+   margin-left: 5%;
+   border: none;
+   color: black;
+
+}
+.party input:hover{
+    color: antiquewhite;
+}
+.party h1{
+    margin-left:15% ;
+} 
+.party button{
+    background-color: rgb(241, 241, 241);
+    border: 3px solid rgb(12, 9, 8);
+    position: absolute;
+    top: 84%;
+    left: 62%;
+    padding: 20px 30px;
+    border: none;
+    font-size: 15px;
+}
+.party button:hover{
+    border: 1px solid black;
+}
+
